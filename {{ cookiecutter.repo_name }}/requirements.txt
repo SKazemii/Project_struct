@@ -2,6 +2,14 @@
 -e .
 
 # external requirements
+pandas
+numpy
+
+
+
+
+
+
 click
 Sphinx
 coverage
