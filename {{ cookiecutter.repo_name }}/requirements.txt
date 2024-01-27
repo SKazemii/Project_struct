@@ -4,11 +4,14 @@
 # external requirements
 pandas
 numpy
-
-
-
-
-
+dvc
+dvc[gdrive]
+sklearn
+pytest
+tox
+flask
+gunicorn
+PyYAML
 
 click
 Sphinx
