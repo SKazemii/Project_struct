@@ -12,6 +12,7 @@ tox
 flask
 gunicorn
 PyYAML
+mlflow
 
 click
 Sphinx
