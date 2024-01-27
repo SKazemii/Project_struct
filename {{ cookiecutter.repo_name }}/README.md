@@ -19,7 +19,8 @@ Project Organization
     ├── manuscripts
     │   ├── docs           <- A default Sphinx project; see sphinx-doc.org for details
     |   ├── references     <- Data dictionaries, manuals, and all other explanatory materials.
-    |   └── figures        <- Generated graphics and figures to be used in reporting
+    |   ├── figures        <- Generated graphics and figures to be used in reporting
+    |   └── src            <- Latex files of project
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
