@@ -6,13 +6,22 @@ pandas
 numpy
 dvc
 dvc[gdrive]
-sklearn
+scikit-learn
 pytest
 tox
-flask
 gunicorn
 PyYAML
-mlflow
+mlflow==2.2.2
+python-box==6.0.2
+notebook
+matplotlib
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+Flask
+Flask-Cors
+
 
 click
 Sphinx
