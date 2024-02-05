@@ -8,20 +8,20 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 AUTHOR_USER_NAME = "skazemii"
-AUTHOR_EMAIL = "skazemi1@unb.ca"
+
 
 
 setup(
     name='{{cookiecutter.project_name}}',
     version=__version__,
     author='{{ cookiecutter.author_name }}',
-    author_email=AUTHOR_EMAIL,
+    author_email='{{ cookiecutter.email }}',
     description='{{ cookiecutter.description }}',
     long_description=long_description,
     long_description_content="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{{ cookiecutter.repo_name }}",
+    url="https://github.com/skazemii/{{ cookiecutter.repo_name }}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{{ cookiecutter.repo_name }}/issues",
+        "Bug Tracker": "https://github.com/skazemii/{{ cookiecutter.repo_name }}/issues",
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
